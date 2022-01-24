@@ -1,0 +1,19 @@
+div,body,header,p{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.bienvenido{
+    padding: 25px;
+    text-align: justify;
+}
+
+.contenidoPadre{
+    height: 100vh;
+    background-color: #f2f5f5;
+}
