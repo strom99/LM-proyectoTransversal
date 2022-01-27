@@ -6,6 +6,7 @@ $item = [
     'cantidad' => $_POST['cantidad']
 ];
 
+// para saber que lista id estamos editando
 $listaIndice = $_POST['listaIndice'];
 
 array_push($_SESSION['listas'][$listaIndice]['items'], $item);

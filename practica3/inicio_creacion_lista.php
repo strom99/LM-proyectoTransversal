@@ -15,27 +15,13 @@
         <h4>Crea tus listas</h4>
     </div>
 
-    <form method="POST">
+    <form action="./creacion_listas.php" method="POST">
         <label for="lista">Nombre Lista :</label>
         <input type="text" id="lista" name="nombre_lista">
         <input type="submit" value="Crear Lista">
+        <p><?php print_r($_SESSION['lista']); ?></p>
     </form>
 
-    <?php
-
-    $lista = [
-        'nombrelista' => $_POST['nombre_lista']
-    ];
-
-    if (!isset($_SESSION['lista'])) {
-        $_SESSION['lista'] = [];
-    }
-
-    array_push($_SESSION['lista'], $lista);
-    var_dump($_SESSION['lista']);
-
-
-    ?>
 
 
 
