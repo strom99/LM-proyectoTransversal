@@ -27,5 +27,5 @@ if (isset($_POST['quitarRefresco'])) {
     }
 }
 
-header('Location: http://localhost:3009/ejercicio01/panel.php');
+header('Location: http://localhost:3008/ejercicio01/panel.php');
 exit;

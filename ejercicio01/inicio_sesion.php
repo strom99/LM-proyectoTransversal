@@ -8,28 +8,28 @@
     <title>formulario 01</title>
     <link rel="stylesheet" href="../estilos/estilos01.css">
 </head>
-<!-- Crea un formulario que permita gestionar la cantidad de refresco y
-de leche que hay en un colmado.
-- Tienes que mantener el nombre del operario que está utilizando la
-aplicación.
-- Tienes que poder añadir y quitar leche y refresco. -->
+<!-- 1. Crea un formulario que permita gestionar la cantidad de refresco y de leche que hay en un colmado.
+    - Tienes que mantener el nombre del operario que está utilizando la
+    aplicación.
+    - Tienes que poder añadir y quitar leche y refresco. 
+-->
 
 <body>
+    <div class="flot">
+        <div class="contenidoPadre">
+            <header class="header">
+                <p>Bienvenido a tu inicio de sesion</p>
+            </header>
+            <div class="inicio">
+                <form action="../ejercicio01/panel.php" method="POST">
+                    <label for="nombre ">Nombre : </label>
+                    <input type="text" id="nombre" name="nombre">
+                    <input type="submit" value="Entrar">
 
-    <div class="contenidoPadre">
-        <header class="header">
-            <p class="bienvenido">Bienvenido a tu inicio de sesion</p>
-        </header>
-        <div class="inicio">
-            <form action="../ejercicio01/panel.php" method="POST">
-                <label for="nombre ">Nombre : </label>
-                <input type="text" id="nombre" name="nombre">
-                <input type="submit" value="Entrar">
-
-            </form>
+                </form>
+            </div>
         </div>
     </div>
-
 </body>
 
 </html>
